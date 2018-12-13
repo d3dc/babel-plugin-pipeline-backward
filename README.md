@@ -1,10 +1,10 @@
-[![github tag](https://img.shields.io/github/tag/d3dc/babel-plugin-pipe-backward.svg?maxAge=2592000)]()
-[![npm version](https://badge.fury.io/js/babel-plugin-pipe-backward.svg)](https://badge.fury.io/js/babel-plugin-pipe-backward)
-[![npm license](https://img.shields.io/npm/l/babel-plugin-pipe-backward.svg?maxAge=2592000)]()
-[![build status](https://travis-ci.org/d3dc/babel-plugin-pipe-backward.svg?branch=master)](https://travis-ci.org/d3dc/babel-plugin-pipe-backward)
-[![known vulnerabilities](https://snyk.io/test/npm/babel-plugin-pipe-backward/badge.svg)](https://snyk.io/test/npm/babel-plugin-pipe-backward)
+[![github tag](https://img.shields.io/github/tag/d3dc/babel-plugin-pipe-backward-operator.svg?maxAge=2592000)]()
+[![npm version](https://badge.fury.io/js/babel-plugin-pipe-backward-operator.svg)](https://badge.fury.io/js/babel-plugin-pipe-backward-operator)
+[![npm license](https://img.shields.io/npm/l/babel-plugin-pipe-backward-operator.svg?maxAge=2592000)]()
+[![build status](https://travis-ci.org/d3dc/babel-plugin-pipe-backward-operator.svg?branch=master)](https://travis-ci.org/d3dc/babel-plugin-pipe-backward-operator)
+[![known vulnerabilities](https://snyk.io/test/npm/babel-plugin-pipe-backward-operator/badge.svg)](https://snyk.io/test/npm/babel-plugin-pipe-backward-operator)
 
-# babel-plugin-pipe-backward
+# babel-plugin-pipe-backward-operator
 
 Add F# like pipe backward behavior with `<|`
 
@@ -53,7 +53,7 @@ From [an issue on the forward pipeline operator](https://github.com/tc39/proposa
 ## Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-pipe-backward
+$ npm install --save-dev babel-plugin-pipe-backward-operator
 ```
 
 ## Usage
@@ -62,21 +62,21 @@ $ npm install --save-dev babel-plugin-pipe-backward
 
 ```json
 {
-  "plugins": ["pipe-backward"]
+  "plugins": ["pipeline-backward-operator"]
 }
 ```
 
 ### Via CLI
 
 ```sh
-$ babel --plugins pipe-backward script.js
+$ babel --plugins pipeline-backward-operator script.js
 ```
 
 ### Via Node API
 
 ```javascript
 require('babel-core').transform('code', {
-  plugins: ['pipe-backward'],
+  plugins: ['pipeline-backward-operator'],
 })
 ```
 
