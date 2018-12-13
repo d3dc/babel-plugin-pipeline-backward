@@ -1,36 +1,29 @@
 {
-  "name": "babel-plugin-pipe-composition",
-  "version": "0.1.1",
-  "description": "Overload the bitwise operators (`<<`) and (`>>`) to provide F# like pipe forward/backward behavior",
-  "homepage": "https://github.com/michaelmitchell/babel-plugin-pipe-composition",
+  "name": "babel-plugin-pipeline-backward",
+  "version": "0.0.1",
+  "description": "Babel plugin to provide F# pipe backward behavior to match the proposed pipeline operator",
+  "homepage": "https://github.com/d3dc/babel-plugin-pipeline-backward",
   "repository": {
     "type": "git",
-    "url": "https://github.com/michaelmitchell/babel-plugin-pipe-composition.git"
+    "url": "https://github.com/d3dc/babel-plugin-pipeline-backward.git"
   },
   "bugs": {
-    "url": "https://github.com/michaelmitchell/babel-plugin-pipe-composition/issues"
+    "url": "https://github.com/d3dc/babel-plugin-pipeline-backward/issues"
   },
   "license": "MIT",
   "keywords": [
     "babel",
     "babel-plugin",
     "pipe",
-    "pipe operator",
-    "pipe forward",
+    "pipeline"
+    "pipeline operator",
     "pipe backward",
-    "pipeline",
-    "pipe operator"
+    "pipeline backward",
   ],
   "author": {
-    "name": "Michael Mitchell",
-    "email": "michael@michaelmitchell.co.nz"
+    "name": "Sam Richard",
+    "username": "d3dc"
   },
-  "maintainers": [
-    {
-      "name": "michaelmitchell",
-      "email": "michael@michaelmitchell.co.nz"
-    }
-  ],
   "main": "build/index.js",
   "devDependencies": {
     "babel-cli": "^6.10.1",
@@ -58,9 +51,6 @@
     "build": "npm run build:js",
     "build:clean": "rm -rf ./build",
     "build:js": "./node_modules/.bin/babel src -d build --source-maps=inline",
-    "docs": "./node_modules/.bin/esdoc -c ./esdoc.json",
-    "lint": "./node_modules/.bin/eslint src test",
-    "lint:fix": "npm run lint -- --fix",
     "snyk": "./node_modules/.bin/snyk",
     "snyk:auth": "npm run -s snyk -- auth $SNYK_TOKEN",
     "snyk:monitor": "npm run snyk -- monitor",
