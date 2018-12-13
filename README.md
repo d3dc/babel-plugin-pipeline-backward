@@ -1,10 +1,10 @@
-[![github tag](https://img.shields.io/github/tag/d3dc/babel-plugin-pipe-backward-operator.svg?maxAge=2592000)]()
-[![npm version](https://badge.fury.io/js/babel-plugin-pipe-backward-operator.svg)](https://badge.fury.io/js/babel-plugin-pipe-backward-operator)
-[![npm license](https://img.shields.io/npm/l/babel-plugin-pipe-backward-operator.svg?maxAge=2592000)]()
-[![build status](https://travis-ci.org/d3dc/babel-plugin-pipe-backward-operator.svg?branch=master)](https://travis-ci.org/d3dc/babel-plugin-pipe-backward-operator)
-[![known vulnerabilities](https://snyk.io/test/npm/babel-plugin-pipe-backward-operator/badge.svg)](https://snyk.io/test/npm/babel-plugin-pipe-backward-operator)
+[![github tag](https://img.shields.io/github/tag/d3dc/babel-plugin-pipeline-backward-operator.svg?maxAge=2592000)]()
+[![npm version](https://badge.fury.io/js/babel-plugin-pipeline-backward-operator.svg)](https://badge.fury.io/js/babel-plugin-pipeline-backward-operator)
+[![npm license](https://img.shields.io/npm/l/babel-plugin-pipeline-backward-operator.svg?maxAge=2592000)]()
+[![build status](https://travis-ci.org/d3dc/babel-plugin-pipeline-backward-operator.svg?branch=master)](https://travis-ci.org/d3dc/babel-plugin-pipeline-backward-operator)
+[![known vulnerabilities](https://snyk.io/test/npm/babel-plugin-pipeline-backward-operator/badge.svg)](https://snyk.io/test/npm/babel-plugin-pipeline-backward-operator)
 
-# babel-plugin-pipe-backward-operator
+# babel-plugin-pipeline-backward-operator
 
 Add F# like pipe backward behavior with `<|`
 
@@ -53,7 +53,7 @@ From [an issue on the forward pipeline operator](https://github.com/tc39/proposa
 ## Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-pipe-backward-operator
+$ npm install --save-dev babel-plugin-pipeline-backward-operator
 ```
 
 ## Usage
