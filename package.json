@@ -24,14 +24,25 @@
     "name": "Sam Richard",
     "username": "d3dc"
   },
-  "dependencies": {
-    "@babel/helper-plugin-utils": "^7.0.0"
-  },
-  "peerDependencies": {
-    "@babel/core": "^7.0.0-0"
+  "scripts": {
+    "test": "jest"
   },
   "devDependencies": {
     "@babel/core": "^7.2.0",
-    "@babel/helper-plugin-test-runner": "^7.0.0"
+    "@babel/helper-plugin-test-runner": "^7.0.0",
+    "@babel/helper-plugin-utils": "^7.0.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.2.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "babel-jest": "^23.6.0",
+    "jest": "^23.6.0"
+  },
+  "jest": {
+    "testRegex": "./test/(?!fixtures/).+\\.m?js$"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.2.0",
+    "babel-core": "^7.0.0-bridge.0"
   }
 }

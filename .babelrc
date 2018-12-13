@@ -1,19 +1,13 @@
 {
-	"plugins": [
-		[
-			"@babel/plugin-transform-runtime",
-			{
-				"polyfill": true,
-				"regenerator": true
-			}
-		],
-		"@babel/plugin-proposal-object-rest-spread",
-		"@babel/plugin-syntax-dynamic-import",
-		"@babel/plugin-syntax-import-meta",
-		"@babel/plugin-proposal-class-properties",
-		"@babel/plugin-proposal-json-strings"
-	],
-	"presets": [
-		"@babel/preset-env"
-	]
+  "plugins": [
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        "regenerator": true
+      }
+    ],
+    "@babel/plugin-proposal-object-rest-spread",
+    "@babel/plugin-syntax-dynamic-import"
+  ],
+  "presets": ["@babel/preset-env"]
 }
