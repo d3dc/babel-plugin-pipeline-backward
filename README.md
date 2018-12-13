@@ -2,7 +2,6 @@
 [![npm version](https://badge.fury.io/js/babel-plugin-pipeline-backward-operator.svg)](https://badge.fury.io/js/babel-plugin-pipeline-backward-operator)
 [![npm license](https://img.shields.io/npm/l/babel-plugin-pipeline-backward-operator.svg?maxAge=2592000)]()
 [![build status](https://travis-ci.org/d3dc/babel-plugin-pipeline-backward-operator.svg?branch=master)](https://travis-ci.org/d3dc/babel-plugin-pipeline-backward-operator)
-[![known vulnerabilities](https://snyk.io/test/npm/babel-plugin-pipeline-backward-operator/badge.svg)](https://snyk.io/test/npm/babel-plugin-pipeline-backward-operator)
 
 # babel-plugin-pipeline-backward-operator
 
